@@ -38,7 +38,7 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
-    //1
+    //4
     //2
 
     if (self.detailItem) {
