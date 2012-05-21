@@ -38,6 +38,7 @@
 - (void)configureView
 {
     // Update the user interface for the detail item.
+    //1
 
     if (self.detailItem) {
         self.detailDescriptionLabel.text = [self.detailItem description];
