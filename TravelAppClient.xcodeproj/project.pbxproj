@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B756DC681569C30A003BEBB8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B756DC671569C30A003BEBB8 /* UIKit.framework */; };
+		B756DC6A1569C30A003BEBB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B756DC691569C30A003BEBB8 /* Foundation.framework */; };
+		B756DC6C1569C30A003BEBB8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B756DC6B1569C30A003BEBB8 /* CoreGraphics.framework */; };
+		B756DC721569C30A003BEBB8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B756DC701569C30A003BEBB8 /* InfoPlist.strings */; };
+		B756DC741569C30A003BEBB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B756DC731569C30A003BEBB8 /* main.m */; };
+		B756DC781569C30A003BEBB8 /* TClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B756DC771569C30A003BEBB8 /* TClientAppDelegate.m */; };
+		B756DC7B1569C30A003BEBB8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B756DC791569C30A003BEBB8 /* MainStoryboard_iPhone.storyboard */; };
+		B756DC7E1569C30A003BEBB8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B756DC7C1569C30A003BEBB8 /* MainStoryboard_iPad.storyboard */; };
+		B756DC811569C30A003BEBB8 /* TClientMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B756DC801569C30A003BEBB8 /* TClientMasterViewController.m */; };
+		B756DC841569C30A003BEBB8 /* TClientDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B756DC831569C30A003BEBB8 /* TClientDetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B756DC631569C30A003BEBB8 /* TravelAppClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelAppClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B756DC671569C30A003BEBB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B756DC691569C30A003BEBB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B756DC6B1569C30A003BEBB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B756DC6F1569C30A003BEBB8 /* TravelAppClient-Info.plist */ = {isa = PBXFileReference; path = "TravelAppClient-Info.plist"; sourceTree = "<group>"; };
+		B756DC711569C30A003BEBB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B756DC731569C30A003BEBB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B756DC751569C30A003BEBB8 /* TravelAppClient-Prefix.pch */ = {isa = PBXFileReference; path = "TravelAppClient-Prefix.pch"; sourceTree = "<group>"; };
+		B756DC761569C30A003BEBB8 /* TClientAppDelegate.h */ = {isa = PBXFileReference; path = TClientAppDelegate.h; sourceTree = "<group>"; };
+		B756DC771569C30A003BEBB8 /* TClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TClientAppDelegate.m; sourceTree = "<group>"; };
+		B756DC7A1569C30A003BEBB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B756DC7D1569C30A003BEBB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B756DC7F1569C30A003BEBB8 /* TClientMasterViewController.h */ = {isa = PBXFileReference; path = TClientMasterViewController.h; sourceTree = "<group>"; };
+		B756DC801569C30A003BEBB8 /* TClientMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TClientMasterViewController.m; sourceTree = "<group>"; };
+		B756DC821569C30A003BEBB8 /* TClientDetailViewController.h */ = {isa = PBXFileReference; path = TClientDetailViewController.h; sourceTree = "<group>"; };
+		B756DC831569C30A003BEBB8 /* TClientDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TClientDetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B756DC601569C30A003BEBB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B756DC681569C30A003BEBB8 /* UIKit.framework in Frameworks */,
+				B756DC6A1569C30A003BEBB8 /* Foundation.framework in Frameworks */,
+				B756DC6C1569C30A003BEBB8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B756DC581569C30A003BEBB8 = {
+			isa = PBXGroup;
+			children = (
+				B756DC6D1569C30A003BEBB8 /* TravelAppClient */,
+				B756DC661569C30A003BEBB8 /* Frameworks */,
+				B756DC641569C30A003BEBB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B756DC641569C30A003BEBB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B756DC631569C30A003BEBB8 /* TravelAppClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B756DC661569C30A003BEBB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B756DC671569C30A003BEBB8 /* UIKit.framework */,
+				B756DC691569C30A003BEBB8 /* Foundation.framework */,
+				B756DC6B1569C30A003BEBB8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B756DC6D1569C30A003BEBB8 /* TravelAppClient */ = {
+			isa = PBXGroup;
+			children = (
+				B756DC761569C30A003BEBB8 /* TClientAppDelegate.h */,
+				B756DC771569C30A003BEBB8 /* TClientAppDelegate.m */,
+				B756DC791569C30A003BEBB8 /* MainStoryboard_iPhone.storyboard */,
+				B756DC7C1569C30A003BEBB8 /* MainStoryboard_iPad.storyboard */,
+				B756DC7F1569C30A003BEBB8 /* TClientMasterViewController.h */,
+				B756DC801569C30A003BEBB8 /* TClientMasterViewController.m */,
+				B756DC821569C30A003BEBB8 /* TClientDetailViewController.h */,
+				B756DC831569C30A003BEBB8 /* TClientDetailViewController.m */,
+				B756DC6E1569C30A003BEBB8 /* Supporting Files */,
+			);
+			path = TravelAppClient;
+			sourceTree = "<group>";
+		};
+		B756DC6E1569C30A003BEBB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B756DC6F1569C30A003BEBB8 /* TravelAppClient-Info.plist */,
+				B756DC701569C30A003BEBB8 /* InfoPlist.strings */,
+				B756DC731569C30A003BEBB8 /* main.m */,
+				B756DC751569C30A003BEBB8 /* TravelAppClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B756DC621569C30A003BEBB8 /* TravelAppClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B756DC871569C30A003BEBB8 /* Build configuration list for PBXNativeTarget "TravelAppClient" */;
+			buildPhases = (
+				B756DC5F1569C30A003BEBB8 /* Sources */,
+				B756DC601569C30A003BEBB8 /* Frameworks */,
+				B756DC611569C30A003BEBB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelAppClient;
+			productName = TravelAppClient;
+			productReference = B756DC631569C30A003BEBB8 /* TravelAppClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B756DC5A1569C30A003BEBB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TClient;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Brooklyn College";
+			};
+			buildConfigurationList = B756DC5D1569C30A003BEBB8 /* Build configuration list for PBXProject "TravelAppClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B756DC581569C30A003BEBB8;
+			productRefGroup = B756DC641569C30A003BEBB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B756DC621569C30A003BEBB8 /* TravelAppClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B756DC611569C30A003BEBB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B756DC721569C30A003BEBB8 /* InfoPlist.strings in Resources */,
+				B756DC7B1569C30A003BEBB8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B756DC7E1569C30A003BEBB8 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B756DC5F1569C30A003BEBB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B756DC741569C30A003BEBB8 /* main.m in Sources */,
+				B756DC781569C30A003BEBB8 /* TClientAppDelegate.m in Sources */,
+				B756DC811569C30A003BEBB8 /* TClientMasterViewController.m in Sources */,
+				B756DC841569C30A003BEBB8 /* TClientDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B756DC701569C30A003BEBB8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B756DC711569C30A003BEBB8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B756DC791569C30A003BEBB8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B756DC7A1569C30A003BEBB8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B756DC7C1569C30A003BEBB8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B756DC7D1569C30A003BEBB8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B756DC851569C30A003BEBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B756DC861569C30A003BEBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B756DC881569C30A003BEBB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravelAppClient/TravelAppClient-Prefix.pch";
+				INFOPLIST_FILE = "TravelAppClient/TravelAppClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B756DC891569C30A003BEBB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravelAppClient/TravelAppClient-Prefix.pch";
+				INFOPLIST_FILE = "TravelAppClient/TravelAppClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B756DC5D1569C30A003BEBB8 /* Build configuration list for PBXProject "TravelAppClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B756DC851569C30A003BEBB8 /* Debug */,
+				B756DC861569C30A003BEBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B756DC871569C30A003BEBB8 /* Build configuration list for PBXNativeTarget "TravelAppClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B756DC881569C30A003BEBB8 /* Debug */,
+				B756DC891569C30A003BEBB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B756DC5A1569C30A003BEBB8 /* Project object */;
+}
