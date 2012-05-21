@@ -24,17 +24,17 @@
 		B756DC671569C30A003BEBB8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B756DC691569C30A003BEBB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B756DC6B1569C30A003BEBB8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B756DC6F1569C30A003BEBB8 /* TravelAppClient-Info.plist */ = {isa = PBXFileReference; path = "TravelAppClient-Info.plist"; sourceTree = "<group>"; };
+		B756DC6F1569C30A003BEBB8 /* TravelAppClient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravelAppClient-Info.plist"; sourceTree = "<group>"; };
 		B756DC711569C30A003BEBB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B756DC731569C30A003BEBB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B756DC751569C30A003BEBB8 /* TravelAppClient-Prefix.pch */ = {isa = PBXFileReference; path = "TravelAppClient-Prefix.pch"; sourceTree = "<group>"; };
-		B756DC761569C30A003BEBB8 /* TClientAppDelegate.h */ = {isa = PBXFileReference; path = TClientAppDelegate.h; sourceTree = "<group>"; };
+		B756DC751569C30A003BEBB8 /* TravelAppClient-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravelAppClient-Prefix.pch"; sourceTree = "<group>"; };
+		B756DC761569C30A003BEBB8 /* TClientAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TClientAppDelegate.h; sourceTree = "<group>"; };
 		B756DC771569C30A003BEBB8 /* TClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TClientAppDelegate.m; sourceTree = "<group>"; };
 		B756DC7A1569C30A003BEBB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		B756DC7D1569C30A003BEBB8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		B756DC7F1569C30A003BEBB8 /* TClientMasterViewController.h */ = {isa = PBXFileReference; path = TClientMasterViewController.h; sourceTree = "<group>"; };
+		B756DC7F1569C30A003BEBB8 /* TClientMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TClientMasterViewController.h; sourceTree = "<group>"; };
 		B756DC801569C30A003BEBB8 /* TClientMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TClientMasterViewController.m; sourceTree = "<group>"; };
-		B756DC821569C30A003BEBB8 /* TClientDetailViewController.h */ = {isa = PBXFileReference; path = TClientDetailViewController.h; sourceTree = "<group>"; };
+		B756DC821569C30A003BEBB8 /* TClientDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TClientDetailViewController.h; sourceTree = "<group>"; };
 		B756DC831569C30A003BEBB8 /* TClientDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TClientDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
